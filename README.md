@@ -12,6 +12,11 @@ Check [list of "help wanted" issues](https://github.com/pengrad/MapScaleView/iss
 
 ## Usage
 ```groovy
+
+repositories {
+    maven {url "https://jitpack.io"}
+}
+
 dependencies {
     implementation 'com.github.pengrad:mapscaleview:1.6.0'
 }
